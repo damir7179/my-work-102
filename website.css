@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgb(2, 2, 48);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header .a {
+    font-size: 30px;
+    color: aliceblue;
+}
+.header .b {
+    font-size: 30px;
+    color: aliceblue;
+}
+.header .c {
+    font-size: 30px;
+    color: aliceblue;
+}
+i {
+    margin: 0 10px;
+}
+
+.banner {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/846/151/small_2x/cryptocurrency-stock-chart-light-futuristic-banner-background-free-vector.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.banner img {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 400px;
+}
+.banner .ban1 {
+    margin-left: 150px;
+    color: aliceblue;
+    font-size: 30px;
+}
+button {
+    font-size: 15px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    width: 200px;
+    
+}
